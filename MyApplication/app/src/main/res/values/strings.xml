@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WordFall</string>
+    <string name="tapto">-TapTo-</string>
+    <string name="startfalling">ㅤ</string>
+    <string name="mywords">MyWords</string>
+    <string name="word">word</string>
+    <string name="transcription">transcription</string>
+    <string name="your_word">your_word</string>
+    <string name="translation">translation</string>
+    <string name="i_don_t_know_this_word">I don\'t know this word</string>
+    <string name="your_word_is">Your word is...</string>
+    <string name="todo">TODO</string>
+    <string name="i_know_the_word">I know the word</string>
+    <string name="next_word">Next word</string>
+    <string name="todo1">TODO</string>
+    <string name="some_about_word">Some about word...</string>
+    <string name="start_falling1">Start Falling</string>
+    <string name="todo12">TODO1</string>
+    <string name="todo13">TODO</string>
+    <string name="menu">Menu</string>
+    <string name="your_tries_for_today">Your tries\'s statistic</string>
+    <string name="back_to_menu">Back to menu</string>
+    <string name="clear_statistic">Clear Statistic</string>
+</resources>

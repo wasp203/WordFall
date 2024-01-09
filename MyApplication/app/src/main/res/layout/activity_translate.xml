@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:background="@color/main_color"
+        android:layout_height="match_parent"
+        tools:context=".Translate">
+
+    <TextView
+            android:text="@string/your_word"
+            android:layout_width="wrap_content"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="wrap_content" android:id="@+id/word_for_translate"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="220dp"
+            app:layout_constraintHorizontal_bias="0.497"/>
+    <TextView
+            android:text="@string/translation"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="wrap_content" android:id="@+id/translation"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="412dp"/>
+    <Button
+            android:text="@string/next_word"
+            android:textSize="24sp"
+            android:backgroundTint="@color/main_purple"
+            android:layout_width="291dp"
+            android:textColor="@color/main_color"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="56dp" android:id="@+id/next_word"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="52dp"/>
+    <ImageView
+            android:layout_width="382dp"
+            android:layout_height="164dp" app:srcCompat="@drawable/_1" android:id="@+id/imageView3"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo1" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp" app:layout_constraintHorizontal_bias="0.551"/>
+    <TextView
+            android:text="@string/some_about_word"
+            android:textSize="40sp"
+            android:textColor="@color/main_color"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="wrap_content" android:id="@+id/textView4"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="44dp"
+            app:layout_constraintHorizontal_bias="0.492"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
